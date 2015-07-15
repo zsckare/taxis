@@ -9,21 +9,45 @@
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<nav>
-		    <div class="nav-wrapper container">
-		      <a href="#!" class="brand-logo">Logo</a>
-		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-		      <ul class="right hide-on-med-and-down">
-		        <li><a href="">Inicio</a></li>
-		       
-		      </ul>
-		      <ul class="side-nav" id="mobile-demo">
-		        <li><a href="">Inicio</a></li>
-		      </ul>
-		    </div>
-		  </nav>
-	</header>
+	<?php include 'nav.php'; ?>
+
+	<div class="container">
+		<div class="card padding-largo" >
+			<div class="row">
+				<h3 class="center-align">
+					Lista General de Taxistas
+				</h3>
+			</div>
+			<div class="row">
+				<table>
+					<thead>
+						<tr>
+							<th data-field="id">Name</th>
+							<th data-field="name">Item Name</th>
+							<th data-field="price">Item Price</th>
+						</tr>
+					</thead>
+						
+					<tbody>
+						<tr>
+							<td>Alvin</td>
+							<td>Eclair</td>
+							<td>$0.87</td>
+						</tr>
+						      
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+
+
+
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
